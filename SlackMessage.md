@@ -1,4 +1,3 @@
-Testando \n1234 som atenção
 Temos novidades no ar!
 
 Para conferir tudo o que foi disponibilizado para nossos clientes, basta acessar o link abaixo e verificar o Release Notes.
