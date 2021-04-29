@@ -1,4 +1,4 @@
-Temos novidades no ar!
+Temos novidades no ar! `n Testando 123 som
 
 Para conferir tudo o que foi disponibilizado para nossos clientes, basta acessar o link abaixo e verificar o Release Notes.
 
