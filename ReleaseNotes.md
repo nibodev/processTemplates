@@ -1,7 +1,7 @@
 <div style="margin: auto; width: 800px;">
 
 # Uma nova versão do {{releaseDetails.releaseDefinition.name}} está disponível 
-<span style="color: rgba(0,0,0,0.7); font-size: 12px">[{{releaseDetails.name}}]({{releaseDetails._links.web.href}}) feito em `{{date (replace releaseDetails.modifiedOn "+0000" "-0300") "DD/MM/YYYY HH:mm"}}`  iniciado por @<{{releaseDetails.modifiedBy.uniqueName}}></span>
+<span style="color: rgba(0,0,0,0.7); font-size: 12px">[{{releaseDetails.name}}]({{releaseDetails._links.web.href}}) feito em `{{date releaseDetails.modifiedOn "DD/MM/YYYY HH:mm"}}`  iniciado por @<{{releaseDetails.modifiedBy.uniqueName}}></span>
 <br></br>
 {{releaseDetails.modifiedOn}} / {{replace releaseDetails.modifiedOn "+0000" "-0300"}} / {{date (replace releaseDetails.modifiedOn "+0000" "-0300") "DD/MM/YYYY HH:mm"}}
 <br></br>
