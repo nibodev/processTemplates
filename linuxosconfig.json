@@ -1,0 +1,11 @@
+{
+ "transparentHugePageEnabled": "madvise",
+ "transparentHugePageDefrag": "defer+madvise",
+ "swapFileSizeMB": 1500,
+ "sysctls": {
+  "netCoreSomaxconn": 163849,
+  "netIpv4TcpTwReuse": true,
+  "netIpv4IpLocalPortRange": "32000 60000"
+ },
+ "vm.max_map_count": 262144
+}
